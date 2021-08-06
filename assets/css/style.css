@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -71,6 +72,12 @@ body{
     font-size: 18px;
     color: #fff;
 }
+.sidebar ul li .bx-search{
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    font-size: 22px;
+}
 .sidebar ul li a{
     color: #fff;
     display: flex;
@@ -89,4 +96,29 @@ body{
     border-radius: 12px;
     line-height: 50px;
     text-align: center;
+}
+.sidebar .profile_content{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left:0;
+}
+.sidebar .profile_content .profile{
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+}
+.profile_content .profile .profil_details{
+    display: flex;
+    align-items: center;
+
+}
+.profile .profil_details img{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.profile .profil_details .name_job{
+    margin-top: 10px;
 }
